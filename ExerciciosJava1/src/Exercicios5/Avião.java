@@ -1,0 +1,52 @@
+package Exercicios5;
+
+public class Avião {
+	
+	//Atributos
+	
+	String cor;
+	String tipo;
+	String modelo;
+	String asas;
+	double tamano;
+	double altMax;
+	int velocidadeMax;
+	boolean ligado;
+	
+	//Metodos
+	
+	public void ligar(){
+		
+		ligado = true;
+		
+	}
+	
+	public void desligado(){
+		
+		ligado=false;
+		
+	}
+	
+	public void voar(){
+		
+		if(ligado==true)
+		{
+			System.out.print("Pode iniciar o vôo!");
+		}
+		else 
+		{
+			System.out.print("Ligue o avião!");
+		}
+		
+		
+	}
+	public void status() {
+		System.out.println("O modelo do avião é: "+this.modelo);
+		System.out.println("A cor do avião é: "+this.cor);
+		System.out.println("O avião é: "+this.tipo);
+		System.out.println("Ele tem asa "+this.asas);
+		System.out.println("Sua velocidade máxima é: "+this.velocidadeMax+"Km/h");
+		System.out.println("Sua Altitude máxima de voo é: "+this.altMax+"ft");
+	}
+}
+	

@@ -1,0 +1,50 @@
+package Exercicios5;
+
+public class Avião {
+	
+	//Atributos
+	
+	String cor;
+	String tipo;
+	String modelo;
+	double tamano;
+	int turbinas;
+	int plano_de_asas;
+	boolean ligado;
+	
+	//Metodos
+	
+	public void ligar(){
+		
+		ligado = true;
+		
+	}
+	
+	public void desligado(){
+		
+		ligado=false;
+		
+	}
+	
+	public void voar(){
+		
+		if(ligado==true)
+		{
+			System.out.print("Pode iniciar o vôo!");
+		}
+		else 
+		{
+			System.out.print("Ligue o avião!");
+		}
+		
+		
+	}
+	public void status() {
+		System.out.print("O modelo do avião é: "+this.modelo);
+		System.out.print("A cor do avião é: "+this.cor);
+		System.out.print("O avião é: "+this.tipo);
+		System.out.print("Ele tem "+this.plano_de_asas+" plano de asas");
+		System.out.print("Ele tem "+this.turbinas+" turbinas.");
+	}
+
+}

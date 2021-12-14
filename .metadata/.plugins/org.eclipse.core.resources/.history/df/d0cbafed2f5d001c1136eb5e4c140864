@@ -1,0 +1,117 @@
+package Exercicios5;
+
+public class Avião {
+	
+	//Atributos
+	
+	String cor;
+	String tipo;
+	String modelo;
+	String asas;
+	double tamano;
+	double altMax;
+	int velocidadeMax;
+	boolean ligado;
+	
+	//Metodos
+	
+	public void ligar(){
+		
+		ligado = true;
+		
+	}
+	
+	public void desligado(){
+		
+		ligado=false;
+		
+	}
+	
+	public void voar(){
+		
+		if(ligado==true)
+		{
+			System.out.print("Pode iniciar o vôo!");
+		}
+		else 
+		{
+			System.out.print("Ligue o avião!");
+		}
+		
+		
+	}
+	public void status() {
+		System.out.println("O modelo do avião é: "+this.modelo);
+		System.out.println("A cor do avião é: "+this.cor);
+		System.out.println("O avião é: "+this.tipo);
+		System.out.println("Ele tem asa "+this.asas);
+		System.out.println("Sua velocidade máxima é: "+this.velocidadeMax+"Km/h");
+		System.out.println("Sua Altitude máxima de voo é: "+this.altMax+"ft");
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public String getModelo() {
+		return modelo;
+	}
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+	public String getAsas() {
+		return asas;
+	}
+
+	public void setAsas(String asas) {
+		this.asas = asas;
+	}
+
+	public double getTamano() {
+		return tamano;
+	}
+
+	public void setTamano(double tamano) {
+		this.tamano = tamano;
+	}
+
+	public double getAltMax() {
+		return altMax;
+	}
+
+	public void setAltMax(double altMax) {
+		this.altMax = altMax;
+	}
+
+	public int getVelocidadeMax() {
+		return velocidadeMax;
+	}
+
+	public void setVelocidadeMax(int velocidadeMax) {
+		this.velocidadeMax = velocidadeMax;
+	}
+
+	public boolean isLigado() {
+		return ligado;
+	}
+
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+}
+

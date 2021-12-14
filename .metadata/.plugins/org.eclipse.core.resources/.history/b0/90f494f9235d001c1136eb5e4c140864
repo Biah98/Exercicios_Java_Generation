@@ -1,0 +1,33 @@
+package Exercicios5;
+
+public class Avião {
+	
+	//Atributos
+	
+	String cor;
+	double tamano;
+	int turbinas;
+	int plano_de_asas;
+	boolean ligado;
+	
+	//Metodos
+	
+	public void ligar(){
+		
+		ligado = true;
+		
+	}
+	
+	public void desligado(){
+		
+		ligado=false;
+		
+	}
+	
+	public void voar(){
+		
+		
+		
+	}
+
+}
