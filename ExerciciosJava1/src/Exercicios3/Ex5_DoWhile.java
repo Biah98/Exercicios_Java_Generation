@@ -3,7 +3,7 @@ package Exercicios3;
 import java.util.Scanner;
 
 public class Ex5_DoWhile {
-	public static void main (System[]args) 
+	public static void main (String[]args) 
 	{
 		int num, soma=0;
 		

@@ -3,7 +3,7 @@ package Exercicios3;
 import java.util.Scanner;
 
 public class Ex3_While {
-	public static void main(System[]args)
+	public static void main(String[]args)
 	{
 		int idade, soma1=0, soma2=0;
 		

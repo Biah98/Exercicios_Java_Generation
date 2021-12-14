@@ -1,7 +1,7 @@
 package Exercicios3;
 
 public class Ex1_For {
-	public static void main (System[]args) 
+	public static void main (String[]args) 
 	{
 		int x;
 		
