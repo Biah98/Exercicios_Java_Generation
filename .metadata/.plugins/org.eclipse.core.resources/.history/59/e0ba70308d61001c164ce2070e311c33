@@ -1,0 +1,34 @@
+package Exercicios6;
+
+public class Cachorro extends Animal {
+
+	Animal cachorro = new Animal();
+	Cachorro.setNome("Cachorro");
+	Cachorro.setIdade(4);
+	Cachorro.setSom(true);
+	
+	System.out.println("Nome: " + cachorro.getNome());
+	System.out.println("Idade: " + cachorro.getIdade());
+	cachorro.emitesom();
+
+	System.out.println("\n");
+	
+	public void idade(){
+		
+		System.out.println("8 anos");
+	}
+	
+	public void emitirSom(){
+		
+		System.out.println("Latido");
+	}
+	
+	public void correr(boolean x){
+		
+		if(x==true)
+			System.out.println("Corre!");
+		else
+			System.out.println("Senta!");
+	}
+	
+}

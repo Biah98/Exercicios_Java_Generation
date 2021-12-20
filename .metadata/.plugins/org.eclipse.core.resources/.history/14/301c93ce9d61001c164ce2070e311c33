@@ -1,0 +1,28 @@
+package Exercicios6;
+
+public class Preguiça extends Animal {
+
+	public void nome(){
+		
+		System.out.println("Preguiça");
+	}
+	
+	public void idade(){
+		
+		System.out.println("30 anos");
+	}
+	
+	public void emitirSom(){
+		
+		System.out.println("Grunhido");
+	}
+	
+	public void arvore(boolean x){
+		
+		if(x==true)
+			System.out.println("Subindo na árvore.");
+		else
+			System.out.println("Está dormindo.");
+	}
+	
+}

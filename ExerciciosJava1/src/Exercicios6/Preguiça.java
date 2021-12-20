@@ -1,0 +1,24 @@
+package Exercicios6;
+
+public class Preguiça extends Animal {
+
+public static void main(String[] args) {
+		
+		Preguiça p = new Preguiça();
+		
+		p.setNome("Bradypus variegatus");
+		p.setIdade(50);
+		p.setEspecie("Mamífero");
+		p.setSom(true);
+		
+		System.out.println("Nome: "+p.getNome());
+		System.out.println("Vive até "+p.getIdade()+" anos");
+		System.out.println("Especie: "+p.getEspecie());
+		
+		p.setSom(true);
+		p.emitesom();
+		
+		p.setLocomocao(false);
+		p.correSobe();
+	}
+}

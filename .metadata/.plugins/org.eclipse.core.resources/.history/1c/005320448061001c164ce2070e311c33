@@ -1,0 +1,10 @@
+package Exercicios6;
+
+public class Herança {
+	public static void main(String[] args) {
+		Cachorro c = new Cachorro();
+		Cavalo cl = new Cavalo();
+		Preguiça p =new Preguiça();
+	}
+}
+

@@ -1,0 +1,22 @@
+package Exercicios6;
+
+public class Cavalo extends Animal {
+
+public static void main(String[] args) {
+		
+		Cavalo cvl = new Cavalo();
+		
+		cvl.setNome("Bradypus variegatus");
+		cvl.setIdade(50);
+		cvl.setEspecie("Mamífero");
+		cvl.setSom(true);
+		
+		System.out.println("Nome: "+cvl.getNome());
+		System.out.println("Vive até "+cvl.getIdade()+" anos");
+		System.out.println("Especie: "+cvl.getEspecie());
+		
+		cvl.setSom(true);
+		cvl.emitesom();
+	}
+	
+}
